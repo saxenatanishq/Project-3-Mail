@@ -1,0 +1,36 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+textarea {
+    min-height: 200px;
+}
+#head{
+    margin-top: 10px;
+}
+.list{
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    border: 1.5px solid black;
+    padding: 2px;
+}
+.list-unread{
+    display: flex;
+    align-items: center;
+    border: 1.5px solid black;
+    padding: 2px;
+}
+#list-sender{
+    font-weight: 700;
+    padding-left: 10px;
+}
+#list-subject{
+    text-align: center;
+    padding-left: 10px;
+}
+#list-timestamp{
+    margin-left: auto;
+    text-align: left;
+    opacity: 0.5;
+    padding-right: 10px;
+}
